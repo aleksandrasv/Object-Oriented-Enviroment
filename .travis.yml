@@ -1,0 +1,11 @@
+dist: xenial
+language: java
+addons:
+  apt:
+    packages:
+      - maven
+#before_script:
+#    - sudo apt-get install ant-optional
+script:
+  - ./autograder.run
+jdk:
